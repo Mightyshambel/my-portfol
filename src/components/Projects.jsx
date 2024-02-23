@@ -11,7 +11,7 @@ function Projects() {
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">Help Desk</div>
       <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus</p>
+        This is a project i build in my intersnship for Tahses ICT and Consultancy using vue js and tailwind css</p>
     </div>
    
         </div>
@@ -20,7 +20,7 @@ function Projects() {
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">Autos</div>
       <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatib
+      This is a final year project which is basically a social media platform for the autism Society, i used vue js and tailwind css
       </p>
     </div>
         </div>
@@ -29,7 +29,7 @@ function Projects() {
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">TTSP</div>
       <p class="text-gray-700 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatib
+        This is my latest project which is a website for Total Tech Solution Provider PLC
       </p>
     </div>
         </div>
