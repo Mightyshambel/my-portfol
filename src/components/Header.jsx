@@ -8,7 +8,7 @@ function Header() {
           className="fill-current h-10 w-10 mr-2"
           width="54"
           height="54"
-          src="mmmm.jpg"
+          src="1.png"
           alt="image description"
         ></img>
         <span className="font-semibold text-xl tracking-tight text-cyan-400">
@@ -28,7 +28,7 @@ function Header() {
         </button>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm lg:flex-grow">
+        <div className="text-sm ">
           <Link
             to="/"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-cyan-400 mr-4"
@@ -47,8 +47,6 @@ function Header() {
           >
             Projects
           </Link>
-        </div>
-        <div>
           <Link
             to="/contact"
             className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-cyan-400 hover:bg-white mt-4 lg:mt-0"
