@@ -1,8 +1,10 @@
 function Contact() {
   return (
-    <form className="mb-6 md:grid-cols-2 p-40 bg-cyan-950">
-      <div className="max-w-lg mx-auto ">
-        <p className="text-3xl text-center text-white">Contact me</p>
+    <div className="mb-6 md:grid-cols-2 p-40 bg-zinc-800 " data-aos="fade-down"
+    data-aos-duration="1000">
+       <form >
+      <div className="max-w-lg mx-auto  border border-gray-300 p-6 ">
+        <p className="text-3xl text-center text-white" style={{ fontFamily: 'lora, lora'}}>Get to know me</p>
         <div>
           <label
             htmlFor="first_name"
@@ -49,12 +51,14 @@ function Contact() {
           ></textarea>
         </div>
         <div className="flex justify-center">
-          <button className="bg-cyan-400 mt-5 hover:bg-sky-100 text-white hover:text-cyan-950 font-bold py-2 px-4 rounded">
-            Read More
+          <button className="bg-pink-500 mt-5 hover:bg-sky-100 text-white hover:text-cyan-950 font-bold py-2 px-6 rounded">
+            Send
           </button>
         </div>
       </div>
     </form>
+    </div>
+   
   );
 }
 
