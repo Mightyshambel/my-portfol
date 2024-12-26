@@ -55,7 +55,7 @@ function LandingPage() {
               </p>
               
             </div>
-           
+          
           </div>
         </section>
         <section className="bg-zinc-800 p-24  text-white">
