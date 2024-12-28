@@ -7,7 +7,7 @@ function LandingPage() {
   useEffect(() => {
     AOS.init();
   }, []);
-  const background = "bg.jpg"; // Define the background variable
+  const background = "gfff.png"; // Define the background variable
   const myStyle = {
     backgroundImage: `url(${background})`,
     height: "full",
@@ -18,8 +18,8 @@ function LandingPage() {
 };
   return (
     <div style={myStyle}>
-      <div className=" p-10">
-        <section  className="p-40">
+      <div className="">
+        <section  className="pt-40" >
           <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div className="mr-auto place-self-center lg:col-span-7">
               <h1
@@ -46,7 +46,7 @@ function LandingPage() {
                 </span>
               </h1>
 
-              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+              <p className="max-w-2xl mb-6 font-light  text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                 Seasoned  Developer with a Bachelor’s degree in
                 Software <br />
                 Engineering and Experienced in designing, developing, and
@@ -55,6 +55,13 @@ function LandingPage() {
               </p>
               
             </div>
+            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <img
+          className=" mb-20 p-10"
+          src="laptop wave.png"
+          alt="image description"
+        />
+      </div>
           
           </div>
         </section>

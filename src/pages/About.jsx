@@ -8,7 +8,7 @@ function About() {
       <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
         <img
           className="rounded-lg w-96"
-          src="abbt.jpg"
+          src="studying.png"
           alt="image description"
         />
       </div>

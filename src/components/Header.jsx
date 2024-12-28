@@ -22,16 +22,14 @@ function Header() {
   }, []);
 
   return (
-    <div className={`fixed top-0 flex w-full z-30 items-center p-7 text-white ${isScrolled ? 'bg-zinc-800' : 'bg-transparent'}`}>
+    <div className={`fixed top-0 flex w-full z-30 items-center pl-20 pr-20 text-white ${isScrolled ? 'bg-zinc-800' : 'bg-transparent'}`}>
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img
-          className="fill-current h-16 w-16 mr-2"
-          src="12.png"
+          className="fill-current h-32 w-32 "
+          src="logoo.png"
           alt="image description"
         />
-        <span className="font-semibold text-2xl tracking-tight text-pink-500">
-          Mighty Shambel
-        </span>
+       
       </div>
       <div className="flex-grow"></div>
       <div className="block lg:hidden">
