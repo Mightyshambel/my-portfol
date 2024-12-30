@@ -34,7 +34,7 @@ function Projects() {
             <div className="font-bold text-xl mb-2 text-white ">Autos</div>
             <p className="text-white text-base">
               This is a final year project which is basically a social media
-              platform for the autism society. I used Vue.js and Tailwind CSS.
+              platform for the autism society. I used Vue.js,Tailwind CSS and Node js.
             </p>
           </div>
         </div>
@@ -47,8 +47,8 @@ function Projects() {
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-white ">TTSP</div>
             <p className="text-white text-base">
-              This project is a website for Total Tech
-              Solution Provider PLC.
+              A project(website) built for Total Tech
+              Solution Provider PLC which is located in addis ababa ethiopia .
             </p>
           </div>
         </div>
@@ -61,7 +61,7 @@ function Projects() {
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-white ">Univ Portal</div>
             <p className="text-white text-base">
-              This is my latest project which is a parcel and delivery service for clients located in Italy.
+               project which is a parcel and delivery service for clients located in Italy.
             </p>
           </div>
         </div>
