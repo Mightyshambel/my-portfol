@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 function LandingPage() {
@@ -11,70 +13,116 @@ function LandingPage() {
   const myStyle = {
     backgroundImage: `url(${background})`,
     height: "full",
-    marginTop: "-70px",
     fontSize: "50px",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
 };
   return (
-    <div style={myStyle}>
-      <div className="">
-        <section  className="pt-40" >
-          <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-            <div className="mr-auto place-self-center lg:col-span-7">
-              <h1
-                className="max-w-2xl mb-4 text-4xl font-extrabold leading-none md:text-3xl xl:text-6xl text-white"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
-                Hey,I am <br></br>
-                <span
-                  className="text-pink-500"
-                  data-aos="zoom-in"
-                  data-aos-delay="500"
-                  style={{ fontFamily: 'lora, lora' }}
-                >
-                 Mighty Shambel
-                </span>{" "}
-                <br></br>
-                <span
-                  className="text-4xl"
-                  data-aos="fade-up"
-                  data-aos-delay="1000"
-                >
-                  Full Stack Developer
-                </span>
-              </h1>
-
-              <p className="max-w-2xl mb-6 font-light  text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-                Seasoned  Developer with a Bachelor’s degree in
-                Software <br />
-                Engineering and Experienced in designing, developing, and
-                delivering <br /> scalable web applications. My expertise spans
-                both front-end and back-end technologies.
-              </p>
+    <div style={myStyle} className="min-h-screen">
+      <div>
+        <section className="p-6 md:p-24">
+           <div className="container mx-auto">
+            <div className="grid md:grid-cols-12 gap-8 items-center">
+                <div className="md:col-span-6 gap -8 flex justify-center">
+                  <h1 className="text-3xl md:text-4xl xl:text-6xl font-extrabold leading-tight mb-4 text-white"
+                      data-aos="fade-right"
+                      data-aos-duration="1000">
+                  Hey, I am <br />
+                  <span className="text-pink-500"
+                        data-aos="zoom-in"
+                        data-aos-delay="500"
+                        style={{ fontFamily: 'lora, lora' }}>
+                    Mighty Shambel
+                  </span>{" "}
+                  <br />
+                  <span className="text-2xl md:text-4xl"
+                        data-aos="fade-up"
+                        data-aos-delay="1000">
+                    Full Stack Developer
+                  </span>
+                </h1>
+              </div>
               
+              <div className="md:col-span-6 flex justify-center">
+                <img className="w-full max-w-md"
+                     src="laptop wave.png"
+                     alt="Developer illustration" />
+              </div>
             </div>
-            <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img
-          className=" mb-20 p-10"
-          src="laptop wave.png"
-          alt="image description"
-        />
-      </div>
-          
           </div>
         </section>
-        <section className="bg-zinc-800 p-24  text-white">
-          <h1 className="text-center">A little about me</h1>
-          <p className="text-center mb-6 font-light text-white  lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          As a Full Stack Devloper, I specialize in Website.with One year of experience in Tech, I have had the privilege of working with diverse clients and projects, honing my skills in front-end. Passionate about
-          building user attractive UI,I approach every task with creativity,dedication, and a keen eye for detail. My goal is not just to meet expectations but to exceed them,delivering exceptional results that
-          drive success for my clients or employers.Lets collaborate and bring your ideas to life.
-        </p>
+
+        <section className="bg-zinc-800 p-6 md:p-24 text-white">
+          <div className="container mx-auto">
+            
+            <div className="grid md:grid-cols-12 gap-8 items-center">
+              <div className="md:col-span-6 flex justify-center">
+                <img className="w-full max-w-md"
+                     src="waving doorway.png"
+                     alt="Developer illustration"
+                     data-aos="fade-left" />
+              </div>
+              <div className="md:col-span-6 text-center md:text-left">
+                <h1 className="text-pink-500 pb-5 font-bold"style={{ fontFamily: 'lora, lora' }} >A little about me</h1>
+               
+                <ul>
+                  <li className="text-base md:text-lg lg:text-xl text-white">Graduated from Bahir Dar University with a Bachelors degree in Software Engineering .</li>
+                  <li className="text-base md:text-lg lg:text-xl text-white pt-5">I am highly interested in  Artificial Intelligence and Machine Learning.</li>
+                  <li className="text-base md:text-lg lg:text-xl text-white pt-5">My expertise spans both front-end and back-end,Using Technologies such as Javascript frameworks  Angular and React js,Typescript,Node js and MongoDB.</li>
+                  <li className="text-base md:text-lg lg:text-xl text-white pt-5"> I joined ALX Africa in 2022 during my internship, where I participated in an intensive 8-month program. Through this experience, I gained in-depth knowledge and became proficient in Git, Python, and C.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section  className=" p-6 md:p-24 text-white">
+          <h1 className="text-pink-500 pb-5 font-bold text-center" style={{ fontFamily: 'lora, lora' }} >Find me On</h1>
+          <p className="text-white pb-5 text-center text-xl">Feel free to connect with me </p>
+          <ul className="flex justify-center items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                      <li>
+                          <a
+                              href="https://www.facebook.com/people/Mightys-Shambel"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-white hover:text-pink-500 me-4 md:me-6"
+                          >
+                              <FontAwesomeIcon icon={faFacebook} style={{ fontSize: '2rem' }} />
+                          </a>
+                      </li>
+                      <li>
+                          <a
+                              href="https://www.instagram.com/almighty__shambel"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-white hover:text-pink-500 me-4 md:me-6  "
+              >
+                <FontAwesomeIcon icon={faInstagram} style={{ fontSize: '2rem' }} />
+                
+                          </a>
+                      </li>
+                      <li>
+                          <a
+                              href="https://www.linkedin.com/in/mighty-shambel-4410a01b5"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-white hover:text-pink-500 me-4 md:me-6"
+                          >
+                              <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '2rem' }}/>
+                          </a>
+                      </li>
+                      <li>
+                          <a
+                              href="https://github.com/Mightyshambel"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-white hover:text-pink-500"
+                          >
+                              <FontAwesomeIcon icon={faGithub} style={{ fontSize: '2rem' }} />
+                          </a>
+                      </li>
+                  </ul>
         </section>
       </div>
-
     </div>
   );
 }
