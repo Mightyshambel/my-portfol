@@ -22,7 +22,7 @@ function About() {
   ];
 
   return (
-    <div className="bg-zinc-800 min-h-screen w-full">
+    <div className="bg-zinc-800 min-h-screen w-full lg:p-24">
       <div className="container mx-auto px-4 py-8 md:py-16">
       <div className="flex flex-col lg:flex-row items-center gap-8">
         <div className="w-full lg:w-1/2">
@@ -32,21 +32,20 @@ function About() {
           alt="image description"
         />
         </div>
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="lg:w-1/2 text-left lg:mr-7 lg:text-left">
         <div className="mb-6">
           <span className="text-3xl md:text-4xl mb-6 text-pink-500" style={{ fontFamily: 'lora, lora' }}>About mighty</span>
         </div>
         <p className="mb-6 font-light text-gray-400 text-base md:text-lg lg:text-xl">
           As a Full Stack Devloper, I specialize in Website Development. I have had the privilege of working with diverse clients and projects, honing my skills in front-end and back end.
-        </p>
-        <div className="mb-6 font-light text-gray-400 text-base md:text-lg lg:text-xl">
-          <p className="text-lg">Away from the keyboard, I have a passion for:-</p>
-          <ul className="list-decimal ml-6 mt-2">
-          <li>Dancing</li>
-          <li>Reading Books</li>
-          <li>Drawing</li>
-          </ul>
-        </div>
+            </p>
+            <p className="mb-6 font-light text-gray-400 text-base md:text-lg lg:text-xl">
+            Experienced in  working  diverse teams spanning Ethiopia and Italy, which has helped me develop strong cross-cultural communication and collaboration skills. 
+            </p>
+            <ul>
+            <li className="mb-6 font-light text-gray-400 text-base md:text-lg lg:text-xl">My soft skills include being a team player, making sound decisions under pressure, fostering creativity in problem-solving, and adapting quickly to new challenges and environments</li>
+            </ul>
+        
         </div>
       </div>
 
