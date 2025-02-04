@@ -2,7 +2,7 @@ import "aos/dist/aos.css";
 function Projects() {
   return (
     <div
-      className="bg-zinc-800 text-4xl font-semibold p-20"
+      className="bg-zinc-800 text-4xl font-semibold p-10 md:p-10 lg:p-20"
       data-aos="fade-down"
       data-aos-duration="1000"
     >
@@ -10,7 +10,7 @@ function Projects() {
         <h1 className="text-center text-white text-4xl mb-10 mt-10" style={{ fontFamily: 'lora, lora' }}>My recent works</h1>
       </div>
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
-        <div className="m-5 max-w-sm rounded overflow-hidden shadow-xl border-2 border- ">
+        <div className="m-5 max-w-sm rounded overflow-hidden shadow-xl border-2">
           <img
             className="w-full h-64 object-cover"
             src="helpdesk.jpg"
@@ -51,13 +51,6 @@ function Projects() {
               Solution Provider PLC which is located in addis ababa ethiopia .
             </p>
           </div>
-        </div>
-        <div className="max-w-sm m-5 rounded overflow-hidden shadow-lg border-2 border-white">
-          <img
-            className="w-full h-64  object-cover"
-            src="studyabroad.jpg"
-            alt="univ portal"
-          />
         </div>
         <div className="max-w-sm m-5 rounded overflow-hidden shadow-lg border-2 border-white">
           <img

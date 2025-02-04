@@ -1,9 +1,9 @@
 function Contact() {
   return (
-    <div className="p-4 sm:p-8 md:p-16 lg:p-40 bg-zinc-800" data-aos="fade-down" data-aos-duration="1000">
+    <div className="p-4 pt-40 sm:p-8 md:p-16 lg:p-40 bg-zinc-800 min-h-screen" data-aos="fade-down" data-aos-duration="1000">
       <form>
-        <div className="w-full max-w-lg mx-auto border border-gray-300 p-4 sm:p-6">
-          <p className="text-2xl sm:text-3xl text-center text-white mb-6" style={{ fontFamily: 'lora, lora'}}>
+        <div className="w-full max-w-[90%] sm:max-w-lg mx-auto border border-gray-300 p-4 sm:p-6">
+          <p className="text-xl sm:text-2xl md:text-3xl text-center text-white mb-6" style={{ fontFamily: 'lora, lora'}}>
             Contact me
           </p>
           <div className="mb-4">
@@ -52,7 +52,7 @@ function Contact() {
             ></textarea>
           </div>
           <div className="flex justify-center">
-            <button className="bg-pink-500 mt-5 hover:bg-sky-100 text-white hover:text-cyan-950 font-bold py-2 px-6 rounded transition-colors duration-300">
+            <button className="bg-pink-500 mt-5 w-full sm:w-auto hover:bg-sky-100 text-white hover:text-cyan-950 font-bold py-2 px-6 rounded transition-colors duration-300">
               Send
             </button>
           </div>
