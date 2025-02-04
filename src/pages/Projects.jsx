@@ -58,12 +58,6 @@ function Projects() {
             src="studyabroad.jpg"
             alt="univ portal"
           />
-          <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2 text-white ">Univ Portal</div>
-            <p className="text-white text-base">
-               project which is a parcel and delivery service for clients located in Italy.
-            </p>
-          </div>
         </div>
         <div className="max-w-sm m-5 rounded overflow-hidden shadow-lg border-2 border-white">
           <img
